@@ -1,8 +1,8 @@
 import { Acciones, AGREGAR_TODO, TOOGLE_TODO, EDITAR_TODO, BORAR_TODO, TOOGLE_ALL_TODO, BORAR_ALL_TODO } from './todo.actions';
 import { Todo } from './Models/todo';
 
-const todo1 = new Todo('Vencer a thanos');
-const todo2 = new Todo('Salvar el mundo');
+const todo1 = new Todo('Aprender NGRX.');
+const todo2 = new Todo('Publicar repositorio.');
 
 const estadoInicial: Array<Todo> = new Array<Todo>();
 estadoInicial.push(todo1);
